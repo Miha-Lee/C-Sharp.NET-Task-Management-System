@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #e3e3e3;
+}
+
+header {
+    background-color: #2f4d8f;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header .inner-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+header .brand a {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+header .nav-links {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+header .nav-links li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+header .nav-links li span {
+    color: #fff;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+header .nav-links li a {
+    color: #fff;
+    font-size: 1.25rem;
+    text-decoration: none;
+}
+
+.task-content {
+    padding: 50px 0;
+    margin: 0 auto;
+}
+
+#task-list-segment,
+#task-list-segment .ant-segmented-group {
+    width: 100%;
+}
+
+#task-list-segment .ant-segmented-item {
+    flex: 1;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}

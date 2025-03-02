@@ -1,6 +1,8 @@
 <pre>
 Task Management System has been developed using React.js and C#.NET. Here are setup guides for this project outlined below.
 
+Side Note: The C#.NET version is using version 8.
+   
 Frontend Setup:
 1. Create the ".env" file in the root folder of the frontend. Then copy the values in the ".env.example".
 2. Replace the value of the "VITE_API_URL" with the backend url, 
